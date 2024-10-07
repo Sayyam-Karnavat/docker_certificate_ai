@@ -1,0 +1,13 @@
+
+
+## Build docker image :- 
+    cmd :- "docker build -t certificate_ai ."
+
+    certificate_ai :- It is project name 
+    . :- represents the current working directory
+
+## Run the docker image on port "4444" since our flask server is running on that port
+    cmd :- docker run --rm -p 4444:4444 certificate_ai
+
+
+
